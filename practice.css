@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.navbar{
+    width: 100vmax;
+    height: 100px;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid white ;
+    padding-top: 25px;
+}
+
+.header
+{
+    display: flex;
+    width: 100vmax;
+    height: 50px;
+    background-color: #262626;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+h1{
+    
+    color: white;
+     font-size: 20px;
+    padding-top: 12px;
+    padding-left: 8px;
+    cursor: pointer;
+    width: 20px;
+    height: 10px;
+    padding-left: 35px;
+    
+
+}
+
+.navs{
+    display: flex;
+justify-content: end;
+gap: 50px;
+text-decoration: none;
+font-size: 15px;
+color: white;
+padding-top: 15px;
+padding-right: 40px;
+cursor: pointer;
+width: 5px;
+height: 10px;
+}
+
+a{
+text-decoration: none;
+font-size: 26px;
+color: white;
+cursor: pointer;
+}
+
+
+svg{
+  width: 11%;
+  padding-left: 20px;
+}
+
+button{
+
+width: 93px;
+height: 34px;
+border-radius: 5px;
+background-color: #7AA93C;
+border: #7AA93C;
+color: white;
+font-size: 14px;
+cursor: pointer;
+margin-right: 20px;
+border-bottom: 2px solid darkolivegreen;
+transition: 0.4s;
+
+}
+
+button:hover{
+background-color: #719e34;
+
+}
